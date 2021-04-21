@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/filmlist.css">
+    <title>
+        MovieApp : Top rated films
+    </title>
+  </head>
+  <body>
+    <header class="film-sorting filters">
+      <h1 aria-level="1" role="heading" class="hidden">
+        Top Rated movies
+      </h1>
+      <form action="#" method="get">
+        <label for="sorting" class="hidden">
+          Sort by :
+        </label>
+        <select id="sorting" class="select dropdown" name="">
+          <option value="top">
+            Top Rated
+          </option>
+          <option value="best">
+            Best Movies
+          </option>
+          <option value="favourite">
+            Your favourite
+          </option>
+        </select>
+        <label for="search" class="hidden">
+          Search :
+        </label>
+        <input id="search" class="search" type="search" name="search" value="search" list="filmlist">
+        <datalist id="filmlist">
+          <option value="Moonlight">
+            Moonlight
+          </option>
+          <option value="The Thin Red Line">
+            The Thin Red Line
+          </option>
+          <option value="Double Indemnity">
+            Double Indemnity
+          </option>
+        </datalist>
+        <input type="submit" name="search" value="Search" class="hidden">
+      </form>
+    </header>
+    <main>
+      <article class="film">
+        <img src="./img/affiche-moonlight.jpg" alt="Affiche du film Moonlight, this is the story of a lifetime" width="327" height="485">
+        <header>
+          <h2 aria-level="2" role="heading">
+            Moonlight
+          </h2>
+          <p class="film-rating">
+            <span>7,5</span>/10
+          </p>
+          <ul class="film-infos">
+            <li class="film-infos-genre">
+              Drama
+            </li><li class="film-infos-duration">
+              1h51min
+            </li><li class="film-infos-releaseDate">
+              10/21/2016
+            </li>
+          </ul>
+        </header>
+        <p class="film-summary">
+          The tender, heartbreaking story of a young man’s struggle to find himself, told across three defining chapters in his life as he experiences the ecstasy, pain, and beauty of falling in love, while grappling with…
+        </p>
+        <footer>
+          <button type="button" name="button-favourite">
+            Favourite
+          </button>
+          <button type="button" name="button-watch">
+            Watch
+          </button>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
