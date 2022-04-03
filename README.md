@@ -14,7 +14,11 @@
 
 Vous trouverez dans ce dossier trois page HTML nommée **index.html**, **film.html** et **search.html**.  Vous disposez de tout le matériel nécessaire pour réaliser cet exercice dans les dossiers **img** et **rendus**.
 
-Le rendu final désiré est le suivant : ![rendu final](./rendus/MovieApp-18042021.pdf)
+Le rendu final désiré est le suivant : 
+![rendu final](./rendus/Film.jpg)
+![rendu final](./rendus/Filmlist.jpg)
+![rendu final](./rendus/Search.jpg)
+
 
 ### Consignes
 
